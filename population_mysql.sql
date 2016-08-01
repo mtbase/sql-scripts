@@ -1,0 +1,11 @@
+LOAD DATA LOCAL INFILE '/home/braunl/Projects/MTBase/multi-tenancy-database-project/mt_benchmark/sampleData/zipf1/currency.tbl' INTO TABLE CurrencyTransform FIELDS TERMINATED BY '|';
+LOAD DATA LOCAL INFILE '/home/braunl/Projects/MTBase/multi-tenancy-database-project/mt_benchmark/sampleData/zipf1/phone.tbl' INTO TABLE PhoneTransform FIELDS TERMINATED BY '|';
+LOAD DATA LOCAL INFILE '/home/braunl/Projects/MTBase/multi-tenancy-database-project/mt_benchmark/sampleData/zipf1/tenant.tbl' INTO TABLE Tenant FIELDS TERMINATED BY '|';
+LOAD DATA LOCAL INFILE '/home/braunl/Projects/MTBase/multi-tenancy-database-project/mt_benchmark/sampleData/zipf1/region.tbl' INTO TABLE Region FIELDS TERMINATED BY '|';
+LOAD DATA LOCAL INFILE '/home/braunl/Projects/MTBase/multi-tenancy-database-project/mt_benchmark/sampleData/zipf1/nation.tbl' INTO TABLE Nation FIELDS TERMINATED BY '|';
+LOAD DATA LOCAL INFILE '/home/braunl/Projects/MTBase/multi-tenancy-database-project/mt_benchmark/sampleData/zipf1/part.tbl' INTO TABLE Part FIELDS TERMINATED BY '|';
+LOAD DATA LOCAL INFILE '/home/braunl/Projects/MTBase/multi-tenancy-database-project/mt_benchmark/sampleData/zipf1/supplier.tbl' INTO TABLE Supplier FIELDS TERMINATED BY '|';
+LOAD DATA LOCAL INFILE '/home/braunl/Projects/MTBase/multi-tenancy-database-project/mt_benchmark/sampleData/zipf1/partsupp.tbl' INTO TABLE Partsupp FIELDS TERMINATED BY '|';
+LOAD DATA LOCAL INFILE '/home/braunl/Projects/MTBase/multi-tenancy-database-project/mt_benchmark/sampleData/zipf1/customer.tbl' INTO TABLE Customer FIELDS TERMINATED BY '|';
+LOAD DATA LOCAL INFILE '/home/braunl/Projects/MTBase/multi-tenancy-database-project/mt_benchmark/sampleData/zipf1/orders.tbl' INTO TABLE Orders FIELDS TERMINATED BY '|';
+LOAD DATA LOCAL INFILE '/home/braunl/Projects/MTBase/multi-tenancy-database-project/mt_benchmark/sampleData/zipf1/lineitem.tbl' INTO TABLE Lineitem FIELDS TERMINATED BY '|';
