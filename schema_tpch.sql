@@ -1,4 +1,4 @@
--- Database Schema for MT Benchmark. 
+-- Database Schema for MT-H Benchmark. 
 -- (c) 2016 @braunl @marenato
 
 CREATE TABLE Region (

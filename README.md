@@ -1,3 +1,7 @@
 # SQL-Scripts
-This repository contains necessary scripts for creating, populating and index creation of databases to be used when executing MT-H Benchmark which is used to evaluate MTBase.
+
+This repository contains the necessary scripts forschema and data loading for
+the MT-H as well for the TPC-H benchmark. In addition, there are also scripts
+for index creation (which is best to run AFTER data population for performance
+    reasons). 
 

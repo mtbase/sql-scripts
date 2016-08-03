@@ -1,5 +1,11 @@
--- Database Schema for MT Benchmark. 
+-- Database Index Creation for MT Benchmark. 
 -- (c) 2016 @braunl @marenato
+
+-- PostgreSQL automatically creates a unique index when a unique constraint or primary key is defined for a table
+-- https://www.postgresql.org/docs/9.5/static/indexes-unique.html
+-- MySql InnoDB (which is the default engine) does the same:
+-- http://dev.mysql.com/doc/refman/5.7/en/mysql-indexes.html
+
 
 ALTER TABLE CurrencyTransform ADD PRIMARY KEY (CT_currency_key);
 
@@ -41,6 +47,3 @@ ALTER TABLE Lineitem ADD FOREIGN KEY (Lineitem_tenant_key) REFERENCES Tenant(T_t
 
 CREATE INDEX L_PARTSUPP_INDEX ON Lineitem (L_partkey, L_suppkey);
 
-CREATE tablespace temp_tbs location '/run/shm/pgTmp';
-SET temp_tablespaces = temp_tbs;
-SELECT pg_reload_conf();
