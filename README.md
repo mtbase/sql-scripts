@@ -13,7 +13,7 @@ database, perform the following steps:
     generator](https://github.com/mtbase/mt-h)
  2. execute `schema_mth.sql`
  3. execute `udfs_postgres_mth.sql` (`udfs_mysql_mth.sql`)
- 4. execute `population_postgres_mth.sql` (`population_mysql_mth`)
+ 4. execute `population_postgres_mth.sql` (`population_mysql_mth.sql`)
  5. execute `idx_mth.sql`
 
 ## Loading Schema, Data and Indexes for TPC-H
@@ -24,6 +24,6 @@ indexes:
  1. download, compile and execute the [TPC-H
     dbgen](https://github.com/airlift/tpch)
  2. execute `schema_tpch.sql`
- 3. execute `population_postgres_tpch.sql` (`population_mysql_tpch`)
+ 3. execute `population_postgres_tpch.sql` (`population_mysql_tpch.sql`)
  5. execute `idx_tpch.sql`
 
